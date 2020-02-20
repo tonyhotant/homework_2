@@ -12,34 +12,35 @@
 
     <link rel="stylesheet" href="./assets/css/style_index.css" />
 
-    <title>Hello, world!</title>
+    <title>About Me</title>
 </head>
 
 <body>
     <!-- Navigate Bar -->
-    <div class="header">
-        <h1>Your Name</h1>
-        <div class="navbar">
-            <a class="navbar-item" href="#search-engine-optimization">About</a>
-            <a class="navbar-item" href="#online-reputation-management">Portfolio</a>
-            <a class="navbar-item" href="#social-media-marketing">Contact</a>
-        </div>
-    </div>
+    <header>
+        <h1>Lisheng YU</h1>
+        <nav>
+            <a class="navbar-item" href="#about-me">About</a>
+            <a class="navbar-item" href="portfolio.html">Portfolio</a>
+            <a class="navbar-item" href="contact.html">Contact</a>
+        </nav>
+    </header>
 
     <!-- main content-->
-    <!-- grid layout-->
-    <div class="container">
-        <div class="row">
+    <main class="container" id="about-me">
+
+        <section class="row">
             <div class="col-md-12">
                 <h2>About Me</h2>
                 <hr>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img class="img-thumbnail" src="https://dummyimage.com/150x150/c2c2c2/ffffff" alt="Thumbnail image">
-            </div>
-            <div class="col-md-8">
+        </section>
+
+        <section class="row">
+            <figure class="col-md-4">
+                <img class="img-thumbnail" src="/homework/homework_2/Assets/selfie_index_2.png" alt="selfie">
+            </figure>
+            <article class="col-md-8">
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                     been the industry's standard
@@ -52,30 +53,16 @@
                     more recently with desktop publishing software like Aldus PageMaker including versions of
                     Lorem Ipsum.
                 </p>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+            </article>
+        </section>
+    </main>
 
     <!--footer-->
-    <div class="footer">
+    <footer>
         <p>
             &copy; Copyright
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
