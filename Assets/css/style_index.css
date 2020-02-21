@@ -28,8 +28,11 @@ nav {
     font-size: 25px;
 }
 
+/* main content */
 .container {
-    margin-top: 60px;
+    margin: 30px 100px 300px 70px;
+    padding: 30px;
+    width: 80%;
     background-color: lightgray;
 }
 
@@ -40,10 +43,10 @@ footer {
     bottom: 0;
     left: 0;
     background-color: dimgray;
-    padding: 40px;
+    padding: 20px;
     clear: both;
 }
 
 p {
-    width: auto;
+    color: white;
 }

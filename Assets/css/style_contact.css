@@ -1,0 +1,56 @@
+/* Navigate bar*/
+header {
+    overflow: auto;
+    background-color: steelblue;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+    padding: 20px;
+    margin: auto;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-item {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: #d9dcd6;
+    font-size: 25px;
+}
+
+/* main content */
+.container {
+    margin: 30px 100px 300px 70px;
+    padding: 30px;
+    width: 80%;
+    background-color: lightgray;
+}
+
+.btn {
+    background-color: steelblue;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    background-color: dimgray;
+    padding: 20px;
+    clear: both;
+}
+
+p {
+    color: white;
+}
