@@ -30,10 +30,27 @@ nav {
 
 /* main content */
 .container {
-    margin: 30px 100px 300px 40px;
-    padding: 30px;
+    margin: 30px 90px 300px 40px;
+    padding: 20px;
     width: 80%;
     background-color: lightgray;
+}
+
+.btn {
+    background-color: steelblue;
+}
+
+.card {
+    width: 15rem;
+    height: 15rem;
+}
+
+.card-img-top {
+    max-height: 10rem;
+}
+
+article {
+    margin-right: 80px;
 }
 
 footer {
