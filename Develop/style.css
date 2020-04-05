@@ -38,21 +38,7 @@ nav {
     background-color: steelblue;
 }
 
-.card {
-    width: 15rem;
-    height: 15rem;
-}
-
-.card-img-top {
-    max-height: 10rem;
-}
-
-article {
-    margin-right: 80px;
-}
-
 footer {
-    position: fixed;
     width: 100%;
     text-align: center;
     bottom: 0;
@@ -62,6 +48,18 @@ footer {
     clear: both;
 }
 
-p {
-    color: white;
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-text {
+    height: 100%;
+}
+
+.card {
+    margin: 30px 30px 30px 30px;
 }
