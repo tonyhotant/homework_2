@@ -3,13 +3,18 @@ header {
     background-color: steelblue;
 }
 
-h1 {
+.jumbotron {
+    height: 100%;
+    margin: 0;
+}
+
+/* h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
     padding: 20px;
     margin: auto;
-}
+} */
 
 nav {
     padding-top: 15px;
@@ -27,12 +32,12 @@ nav {
     font-size: 25px;
 }
 
-.container {
+/* .container {
     margin: 30px 90px 50px 40px;
     padding: 20px;
     width: 80%;
     background-color: lightgray;
-}
+} */
 
 .btn {
     background-color: steelblue;
