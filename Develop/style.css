@@ -4,8 +4,10 @@ header {
 }
 
 .jumbotron {
-    height: 100%;
-    margin: 0;
+    height: 100vh;
+    background-image: url(../Assets/Images/Jumbotron-inception-1920-87675.jpg);
+background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /* h1 {
@@ -32,12 +34,11 @@ nav {
     font-size: 25px;
 }
 
-/* .container {
+.container {
     margin: 30px 90px 50px 40px;
     padding: 20px;
     width: 80%;
-    background-color: lightgray;
-} */
+}
 
 .btn {
     background-color: steelblue;
