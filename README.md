@@ -14,7 +14,7 @@ Responsive design ensures that web applications render well on a variety of devi
 
 ## Usage
 
-- The URL of the deployed application: <http://tonyhotant.github.io/CSS-Bootstrap-responsive-portfolio-Lisheng/>
+- The URL of the deployed application: <http://tonyhotant.github.io/CSS-Bootstrap-responsive-portfolio-Lisheng>
 
 - The URL of the GitHub repository: <https://github.com/tonyhotant/CSS-Bootstrap-responsive-portfolio-Lisheng>
 
